@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="" />
+    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/bushuuijiao/HTML5-LEARN&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/bushuuijiao/HTML5-LEARN/图片合集&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +51,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bushuuijiao\HTML5-LEARN\图片合集" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\bushuuijiao\HTML5-LEARN\图片合集" />
     </key>
@@ -66,7 +71,8 @@
       <workItem from="1670572738619" duration="4533000" />
       <workItem from="1670673139523" duration="3889000" />
       <workItem from="1670849009835" duration="3985000" />
-      <workItem from="1670900988628" duration="11109000" />
+      <workItem from="1670900988628" duration="14607000" />
+      <workItem from="1670936324344" duration="2113000" />
     </task>
     <servers />
   </component>

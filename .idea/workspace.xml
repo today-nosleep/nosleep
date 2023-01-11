@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="">
+    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="newnewtour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,16 @@
       <workItem from="1673337033772" duration="997000" />
       <workItem from="1673338055693" duration="958000" />
       <workItem from="1673423632610" duration="263000" />
+      <workItem from="1673423911745" duration="1478000" />
     </task>
+    <task id="LOCAL-00001" summary="newnewtour">
+      <created>1673424088021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673424088021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +119,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="sky" />
+                        <option value="blog" />
                       </list>
                     </value>
                   </entry>
@@ -136,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="newnewtour" />
+    <option name="LAST_COMMIT_MESSAGE" value="newnewtour" />
   </component>
 </project>

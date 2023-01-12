@@ -1,0 +1,10 @@
+body {
+    width: 650px;
+    border-left: 50px;
+}
+h1{
+    font-size: 36px;
+    line-height: 200%;
+    margin:30px 0;
+    color:#188eee
+}

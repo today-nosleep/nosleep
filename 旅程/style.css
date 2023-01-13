@@ -1,10 +1,110 @@
-body {
+.zt,.plq,.flower{
+    margin-left:50px;
     width: 650px;
-    border-left: 50px;
+}
+.flower{
+    background:url("http://coding.imweb.io/img/project/blog/bg.jpg") right bottom;
+    width:253px;
+    height:600px;
+    float: right;
 }
 h1{
     font-size: 36px;
     line-height: 200%;
     margin:30px 0;
     color:#188eee
+}
+h2{
+    font-size: 24px;
+    line-height: 200%;
+    margin: 20px 0;
+}
+.mine{
+    margin-right: 10px;
+    font-family: monospace;
+    list-style-type: decimal;
+    color:#999
+
+}
+.mine span{
+    color:#333
+}
+p{
+    font-size: 16px;
+    line-height: 180%;
+    text-indent: 2em;
+    padding: 10px 0;
+}
+img{
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px 0;
+    width: 600px;
+}
+a{
+    color:#333333;
+}
+span{
+    color: #999;
+}
+.plq{
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 3px;
+}
+input{
+    color: white;
+    font-size: 20px;
+    background-color: #188eee;
+}
+a:hover{
+    color: #188eee;
+}
+input:hover{
+    background-color:#147de2;
+    cursor: pointer;
+}
+textarea{
+    width: 650px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #dbdbdb;
+    resize: none;
+    margin-top: 20px;
+}
+textarea:hover{
+    border-color:#cccccc;
+}
+.pl{
+    background-color: #f5f5f5;
+    font-size: 14px;
+    padding: 5px;
+}
+.pl,textarea:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+.time{
+    color: #666;
+}
+.name,.dz,.hf{
+    color:#188eee;
+}
+.name,.dz,.time,.hf{
+    font-size: 12px;
+}
+.name,.dz,.hf:hover{
+    color: #147de2;
+    cursor: pointer;
+}
+.dz,.hf{
+    text-align: right;
+}
+.xian{
+    height:1px;
+    background-image:linear-gradient(to right,#188eee,#188eee 120px,#999999 40px,#999999 );
+}
+.blue{
+    height: 2px;
+    background-color: #188eee;
 }

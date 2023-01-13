@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="newnewtour" />
+    <list default="true" id="8af1616b-b1e1-4e06-be39-5d28378ffac0" name="变更" comment="newnewtour">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/旅程/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/旅程/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/旅程/华丽的冒险.html" beforeDir="false" afterPath="$PROJECT_DIR$/旅程/华丽的冒险.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +32,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Ia5dFUdbtgKIZAPR5ZOpWbrRph" />
   <component name="ProjectViewState">
@@ -80,6 +87,9 @@
       <workItem from="1673338055693" duration="958000" />
       <workItem from="1673423632610" duration="263000" />
       <workItem from="1673423911745" duration="1478000" />
+      <workItem from="1673505289805" duration="5165000" />
+      <workItem from="1673526447785" duration="14000" />
+      <workItem from="1673574889896" duration="13021000" />
     </task>
     <task id="LOCAL-00001" summary="newnewtour">
       <created>1673424088021</created>

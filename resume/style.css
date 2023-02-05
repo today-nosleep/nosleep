@@ -1,0 +1,276 @@
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.myintroduce, .during {
+    max-width: 1000px;
+    height: 539px;
+    background-image: url("http://coding.imweb.io/img/project/resume/bg.png");
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.myintroduce {
+    background-color: #188eee;
+    font-size: 15px;
+    color: white;
+    border-radius: 2px;
+    justify-content: center;
+}
+
+.during {
+
+}
+
+.introduce {
+    border: 1px solid rgba(0, 0, 0, 50%);
+    border-radius: 5px;
+    height: 10%;
+    width: 70%;
+    max-width: 400px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.introduce1 {
+    flex: 0 0 50%;
+    margin: 1% 0;
+}
+
+.letter2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 120px;
+    border-radius: 100%;
+    border: 5px solid #147de2;
+    background-color: white;
+}
+
+.header:hover{
+    animation: animate-border 1.5s infinite;
+}
+
+@keyframes animate-border {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4)
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0)
+    }
+
+}
+
+.id {
+    font-size: 25px;
+}
+
+.letter {
+    border-radius: 100%;
+    border: 2px solid #f5f5f5;
+}
+
+h3 {
+    text-align: center;
+}
+
+.word {
+    color: #666666;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue1{
+    width:50%;
+
+
+}
+.blue {
+    color: #188eee;
+    font-size: 18px;
+    text-align: center;
+}
+.blue:after,.blue:before{
+    background: #666666;
+    content: "";
+    height:1px;
+    width: 90%;
+    display: block;
+    position: relative;
+}
+.blue:after{
+    bottom: 0.5em;
+    left: 60%;
+}
+.blue:before{
+    top: 0.8em;
+    right:50%;
+}
+h5 {
+    margin: 5px 0;
+}
+
+input {
+    font-size: 5px;
+    background-color: white;
+    width: 35px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #999999;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+input:hover {
+    background-color: #666666;
+}
+
+.loader1, .loader2, .loader3 {
+    margin: 10px 0;
+    width: 80%;
+    height: 6px;
+    border-radius: 5px;
+    background-size: 600%;
+}
+
+.loader1 {
+    background: linear-gradient(to right, #147de2, #188eee 120px, #999999 40px, #999999);
+}
+
+.loader1:hover {
+    animation: loader1 0.5s infinite;
+}
+
+@keyframes loader1 {
+    0% {
+        background: linear-gradient(to right, #147de2, #188eee 120px, #999999 40px, #999999);
+    }
+    100% {
+        background: linear-gradient(to right, #147de2, #188eee 300px, #999999 20px, #999999);
+    }
+}
+
+.loader2 {
+    background: linear-gradient(to right, #147de2, #188eee 450px, #999999 40px, #999999);
+}
+
+.loader2:hover {
+    animation: loader2 0.5s infinite;
+}
+
+@keyframes loader2 {
+    0% {
+        background: linear-gradient(to right, #147de2, #188eee 40px, #999999 40px, #999999);
+    }
+    50% {
+        background: linear-gradient(to right, #147de2, #188eee 300px, #999999 20px, #999999);
+    }
+    100% {
+        background: linear-gradient(to right, #147de2, #188eee 450px, #999999 20px, #999999);
+    }
+}
+
+.loader3 {
+    background: linear-gradient(to right, #147de2, #188eee 300px, #999999 40px, #999999);
+}
+
+.loader3:hover {
+    animation: loader3 0.5s infinite;
+}
+
+@keyframes loader3 {
+    0% {
+        background: linear-gradient(to right, #147de2, #188eee 0px, #999999 40px, #999999);
+    }
+    50% {
+        background: linear-gradient(to right, #147de2, #188eee 150px, #999999 20px, #999999);
+    }
+    100% {
+        background: linear-gradient(to right, #147de2, #188eee 300px, #999999 20px, #999999);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myintroduce, .during {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .myintroduce, .during {
+        width: 48%;
+    }
+}
+
+.buttons {
+    margin: 0 0;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+}
+
+.bit {
+    width: 100%;
+    margin-left: 20%;
+}
+.during{
+    position: relative;
+    padding-left: 5px;
+}
+.during:after{
+    position: absolute;
+    top: 120px;
+    transform: translateY(-40%);
+    left: 30px;
+    content: "";
+    width: 1px;
+    height: 30%;
+    background-image: linear-gradient(to bottom, #999999, #999999 95%, #f5f5f5 3px,#f5f5f5 );
+}
+.blue1::before{
+    top: 53px;
+    left: 26px;
+}
+.blue1::after{
+    top: 152px;
+    left: 26px;
+}
+.blue1::before,.blue1::after{
+    position: absolute;
+    transform: translateY(-40%);
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:#147de2;
+    z-index: 2;
+}
+.blue1::before:hover{
+    animation: animate-border1 1.5s infinite;
+}
+
+@keyframes animate-border1 {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4)
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0)
+    }
+
+}
